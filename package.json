@@ -1,0 +1,23 @@
+{
+  "name": "TeamGenerator",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randyfasion/Team-Profile-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randyfasion/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/randyfasion/Team-Profile-Generator#readme"
+}
