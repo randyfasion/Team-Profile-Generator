@@ -15,11 +15,16 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 Video link:
 
+https://youtu.be/y1NxqdYmmNY
 
+
+Sample HTML File:
+
+https://github.com/randyfasion/Team-Profile-Generator/blob/main/dist/index.html
 
 
 Link to Github Repository:
 
 https://github.com/randyfasion/Team-Profile-Generator
 
-Link to Index.html
+
