@@ -15,18 +15,18 @@ The following image shows a mock-up of the generated HTML’s appearance and fun
 
 Video link:
 
-https://youtu.be/y1NxqdYmmNY
 
 <a href="https://www.youtube.com/watch?v=y1NxqdYmmNY" target="_blank">Video<a>
 
 
 Sample HTML File:
 
-https://github.com/randyfasion/Team-Profile-Generator/blob/main/dist/index.html
+<a href="https://github.com/randyfasion/Team-Profile-Generator/blob/main/dist/index.html" target="_blank">HTML<a>
 
 
 Link to Github Repository:
 
-https://github.com/randyfasion/Team-Profile-Generator
+<a href = "https://github.com/randyfasion/Team-Profile-Generator" target="_blank">GitHub<a>
+
 
 
