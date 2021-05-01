@@ -17,6 +17,8 @@ Video link:
 
 https://youtu.be/y1NxqdYmmNY
 
+<a href="https://www.youtube.com/watch?v=y1NxqdYmmNY" target="_blank">Video<a>
+
 
 Sample HTML File:
 
