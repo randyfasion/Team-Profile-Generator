@@ -6,7 +6,20 @@ This application take in information about a team at a Software Engineering comp
 
 Since this application is not deployed. Here is a link to a walkthrough video that demostrates its functionality and all of the tests. 
 
+
+## Mock-Up
+
+The following image shows a mock-up of the generated HTML’s appearance and functionality:
+
+![teamgenerator image](pic.png)
+
 Video link:
 
 
+
+
 Link to Github Repository:
+
+https://github.com/randyfasion/Team-Profile-Generator
+
+Link to Index.html
