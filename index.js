@@ -1,3 +1,5 @@
+
+//import modules 
 const inquirer = require('inquirer');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
@@ -12,7 +14,7 @@ function getEmployeePrompts(employeeType) {
         {
             type: 'input',
             name: 'name',
-            message: "What's their name?",
+            message: "enter a name",
             validate: nameInput => {
                 if (nameInput) {
                     return true;
@@ -25,7 +27,7 @@ function getEmployeePrompts(employeeType) {
         {
             type: 'input',
             name: 'email',
-            message: "What's their email?",
+            message: "enter an email",
             validate: emailInput => {
                 if (!emailInput) {
                     return 'Please enter an email';
@@ -40,7 +42,7 @@ function getEmployeePrompts(employeeType) {
         {
             type: 'input',
             name: 'id',
-            message: "What's their employee ID?",
+            message: "enter employee ID?",
             validate: idInput => {
                 if (idInput) {
                     return true;
@@ -56,7 +58,7 @@ function getEmployeePrompts(employeeType) {
         'engineer': {
             type: 'input',
             name: 'github',
-            message: "What's their github username?",
+            message: "enter GitHub username",
             validate: githubInput => {
                 if (githubInput) {
                     return true;
@@ -69,7 +71,7 @@ function getEmployeePrompts(employeeType) {
         'intern': {
             type: 'input',
             name: 'school',
-            message: "What school do they attend?",
+            message: "enter school intern attends",
             validate: schoolInput => {
                 if (schoolInput) {
                     return true;
@@ -82,13 +84,13 @@ function getEmployeePrompts(employeeType) {
         'manager': {
             type: 'input',
             name: 'office',
-            message: "What's their office number?",
+            message: "enter office number",
             validate: officeInput => {
                 if (!officeInput) {
                     return 'Please enter an office number.';
                 }
                 else if (isNaN(officeInput)) {
-                    return 'The office number needs to be a number.';
+                    return 'please enter a number.';
                 }
                 else {
                     return true;
@@ -160,10 +162,8 @@ function promptForEmployee() {
 }
 
 function buildTeam() {
-    console.log(`
-    ----------- Let's build a team! -----------
-    `);
-    console.log(`  We'll start with the manager.
+    
+    console.log(`  please enter Manager.
     `)
     return inquirer
         .prompt(getEmployeePrompts('manager'))
