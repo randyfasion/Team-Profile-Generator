@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/randyfasion/Team-Profile-Generator#readme",
   "dependencies": {
+    "inquirer": "^8.1.0",
     "jest": "^26.6.3"
   }
 }
